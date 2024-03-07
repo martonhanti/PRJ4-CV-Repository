@@ -6,15 +6,23 @@
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #202030;
-	background-color: #f8f8fc;
+	font-family: "Madimi", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #000000;
+	background-color: #A8A8A8
+	
+}
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #FFCC00;
+	color: #000000;
+	font-size: 12px;
 }
 
 .resume-main {
@@ -22,7 +30,8 @@ body {
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #003399;
+	color: #FFFFFF;
 }
 
 /* Styles for lists in the document */
@@ -48,4 +57,13 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
-}
+	}
+
+.name-color {
+	color:#FFFFFF
+		}
+
+.progress-color {
+	color: #003399
+		}
+
